@@ -1,0 +1,11 @@
+# @package _global_
+dataloader:
+    name: satelite
+
+    # PRNG Settings
+    seed: 1234
+    enable_seed: true
+
+    # Dataset File Location
+    train_path: '../data/satelite/sat.trn'
+    test_path: '../data/satelite/sat.tst'

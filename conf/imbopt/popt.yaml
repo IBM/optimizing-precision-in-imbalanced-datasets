@@ -1,0 +1,14 @@
+# @package _global_
+imbopt:
+    name: popt
+    verbose: true
+
+    grid_granularity: 10
+
+    metric:
+        name: f1_score
+        params:
+            q_0: 0.25
+            eta: 100
+            rho: 1.0
+            average: weighted

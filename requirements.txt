@@ -1,0 +1,10 @@
+tqdm
+numpy
+pandas
+mlflow
+sklearn
+xgboost
+omegaconf
+matplotlib
+hydra-core==1.0.5
+bayesian-optimization

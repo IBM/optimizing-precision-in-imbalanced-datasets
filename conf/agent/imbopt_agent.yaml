@@ -1,0 +1,11 @@
+# @package _global_
+agent:
+    name: ImbOptAgent
+    debug: false
+
+    log_metrics: true
+
+    model:
+        obj: 'multi:softmax'     # (binary:hinge, multi:softmax)
+        eval_metric: 'merror'    # (error, merror)
+        max_depth: 6

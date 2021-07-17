@@ -1,0 +1,20 @@
+# @package _global_
+exp_name: 'Imbalance Optimization'
+mode: 'train'
+
+enable_seed: true
+seed: 1234
+
+defaults:
+    # Hydra Configuration
+    - hydra/hydra_logging : default   # Hydra's logging config
+    - hydra/job_logging : default     # Job's logging config
+    - hydra/output: butane            # Output directory
+    - hydra/help: default             # --help template
+    - hydra/hydra_help: default       # --hydra-help template
+
+    # Butane Runtime Configuration
+    - agent: imbopt_agent
+    - logger: mlflow
+    - dataloader: optical_digit
+    - imbopt: popt

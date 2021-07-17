@@ -1,0 +1,19 @@
+# @package _global_
+dataloader:
+    name: protein
+    mode: phy # (bio, phy)
+
+    # PRNG Settings
+    seed: 1234
+    enable_seed: true
+
+    # Dataset File Location
+    bio_train_path: '../data/protein/bio_train.dat'
+    phy_train_path: '../data/protein/phy_train.dat'
+
+    # Cross Validation Parameter
+    crossval:
+        folds: 10
+        stratified: false
+        shuffle: true
+        random_state: 1234

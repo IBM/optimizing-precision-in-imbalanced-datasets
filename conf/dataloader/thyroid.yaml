@@ -1,0 +1,16 @@
+# @package _global_
+dataloader:
+    name: thyroid
+    mode: sick # (bp, dis, hyper, hypo, rep, sick)
+
+    # PRNG Settings
+    seed: 1234
+    enable_seed: true
+
+    # Dataset File Location
+    bp_path: '../data/thyroid/bp/allbp'
+    dis_path: '../data/thyroid/dis/dis'
+    hyper_path: '../data/thyroid/hyper/allhyper'
+    hypo_path: '../data/thyroid/hypo/allhypo'
+    rep_path: '../data/thyroid/rep/allrep'
+    sick_path: '../data/thyroid/sick/sick'

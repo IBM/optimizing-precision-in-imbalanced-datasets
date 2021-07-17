@@ -1,0 +1,18 @@
+# @package _global_
+dataloader:
+    name: wine
+
+    # PRNG Settings
+    seed: 1234
+    enable_seed: true
+
+    # Dataset File Location
+    red_data_path: '../data/wine/winequality-red.csv'
+    white_data_path: '../data/wine/winequality-white.csv'
+
+    # Cross Validation Parameter
+    crossval:
+        folds: 10
+        stratified: false
+        shuffle: true
+        random_state: 1234

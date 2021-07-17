@@ -1,0 +1,11 @@
+# @package _global_
+dataloader:
+    name: optical_digit
+
+    # PRNG Settings
+    seed: 1234
+    enable_seed: true
+
+    # Dataset File Location
+    train_path: '../data/optical_digit/optdigits.tra'
+    test_path: '../data/optical_digit/optdigits.tes'

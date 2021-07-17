@@ -1,0 +1,5 @@
+# @package _global_
+logger:
+    name: mlflow
+    output_dir: outputs/
+    temp_dir: .temp/

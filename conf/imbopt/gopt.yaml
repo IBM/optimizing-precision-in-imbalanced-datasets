@@ -1,0 +1,18 @@
+# @package _global_
+imbopt:
+    name: gopt
+
+    init_points: 0
+    n_iterations: 10
+
+    grid_value:
+        lower: 0.001
+        upper: 0.999
+
+    metric:
+        name: f1_score
+        params:
+            q_0: 0.25
+            eta: 100
+            rho: 1.0
+            average: weighted

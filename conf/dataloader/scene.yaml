@@ -1,0 +1,17 @@
+# @package _global_
+dataloader:
+    name: scene
+
+    # PRNG Settings
+    seed: 1234
+    enable_seed: true
+
+    # Dataset File Location
+    data_path: '../data/scene/scene.csv'
+
+    # Cross Validation Parameter
+    crossval:
+        folds: 10
+        stratified: false
+        shuffle: true
+        random_state: 1234
